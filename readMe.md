@@ -22,13 +22,20 @@ mail: 1302344595@qq.com
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [cloud-provider-payment8001](./cloud-provider-payment8001)   | 微服务提供者支付module模块8001                               |
 | [cloud-provider-payment8002](./cloud-provider-payment8002)   | 微服务提供者支付module模块8002                               |
-| [cloud-consumer-order80](##二. cloud-consumer-order80)       | 微服务调用者订单module模块-使用LoadBalancer负载均衡          |
-| [cloud-consumer-feign-order80](#Ⅳ. OpenFeign服务接口调用)    | 微服务调用者订单module模块-使用OpenFeign负载均衡             |
-| [cloud-api-commons](##三. cloud-api-commons)                 | 对外暴露通用的组件/api/接口/工具类等                         |
-| [cloudalibaba-provider-payment9001](####基于Nacos的服务提供者) | 基于nacos的微服务提供者(另拷贝虚拟端口映射为9002测试负载均衡) |
-| [cloudalibaba-consumer-nacos-order83](####基于Nacos的服务消费者) | 基于nacos的微服务消费者                                      |
-| [cloudalibaba-config-nacos-client3377](##Nacos Config 服务配置中心) | nacos作为服务配置中心                                        |
-| [cloudalibaba-sentinel-service8401](##整合Sentinel入门案例)  | 整合sentinel                                                 |
+| [cloud-consumer-order80](./cloud-consumer-order80)           | 微服务调用者订单module模块-使用LoadBalancer负载均衡          |
+| [cloud-consumer-feign-order80](./cloud-consumer-feign-order80) | 微服务调用者订单module模块-使用OpenFeign负载均衡             |
+| [cloud-api-commons](./cloud-api-commons)                     | 对外暴露通用的组件/api/接口/工具类等                         |
+| [cloudalibaba-provider-payment9001](./cloudalibaba-provider-payment9001) | 基于nacos的微服务提供者(另拷贝虚拟端口映射为9002测试负载均衡) |
+| [cloudalibaba-consumer-nacos-order83](./cloudalibaba-consumer-nacos-order83) | 基于nacos的微服务消费者                                      |
+| [cloudalibaba-config-nacos-client3377](./cloudalibaba-config-nacos-client3377) | nacos作为服务配置中心                                        |
+| [cloudalibaba-sentinel-service8401](./cloudalibaba-sentinel-service8401) | 整合sentinel                                                 |
+| [cloud-gateway9527](./cloud-gateway9527)                     | 网关                                                         |
+| [cloudalibaba-sentinel-gateway9528](./cloudalibaba-sentinel-gateway9528) | GateWay和Sentinel集成实现服务限流                            |
+| [cloudalibaba-sentinel-service8401](./cloudalibaba-sentinel-service8401) | sentinel                                                     |
+| [mybatis_generator2024](./mybatis_generator2024)             | 自动生成实体类mapper的工具模块                               |
+| [seata-account-service2003](./seata-account-service2003)     | 分布式事务-账户模块                                          |
+| [seata-order-service2001](./seata-order-service2001)         | 分布式事务-订单模块                                          |
+| [seata-storage-service2002](./seata-storage-service2002)     | 分布式事务-库存模块                                          |
 
 ![image-20240811192237239](./MDImg/image-20240811192237239.png)
 
